@@ -14,4 +14,4 @@ stu2.say()
 
 from p0 import Student
 stu3=Student()
-stu3.say()//48
+stu3.say()//48.
