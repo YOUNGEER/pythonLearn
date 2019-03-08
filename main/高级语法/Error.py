@@ -9,6 +9,7 @@ except NameError as e:
     print("name error")
 except Exception as e:
     print("exception")
+
 else:
     print("no error")
 finally:
