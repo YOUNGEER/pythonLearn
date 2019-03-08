@@ -14,4 +14,8 @@ stu2.say()
 
 from p0 import Student
 stu3=Student()
-stu3.say()//48.
+stu3.say()
+
+# 次判断语句建议每个文件中都加上
+if __name__ == '__main__':
+    print("i am module start")
