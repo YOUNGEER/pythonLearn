@@ -76,5 +76,43 @@
     - raise 关键字来引发异常
     - try：语句1 raise ValueError        
     
-                              
+# 常用模块,模块需要先导入
+## calendar 日历   
+## time
+## datetime
+## timeit
+## os
+## shutil
+## zip
+## math
+## String
+
+# 函数式编程
+## lambda表达式
+    - 以lambda开头
+    - 紧跟一定的参数（如果有的话）
+    - 参数后用冒号和表达式主题隔开
+    - 只是一个表达式，没有return
+## 高阶函数
+- 把函数作为参数使用的函数，叫高阶函数
+    - map
+    - reduce
+    - filter    
+    - 排序sorted
+    - zip，返回对应tuple
+    - enumerate，跟zip类似，但是有索引
+- 闭包：内部定义的函数调用了外部定义函数的参数 
+- 装饰器
+    - 在不改动函数代码的基础上无限制扩展函数功能的一种机制
+    - 用@语法使用
+- 偏函数
+    - 参数固定的函数，相当于一个由特定参数的函数体
+    - function.partial的作用是，把一个函数某些函数固定，返回一个新函数
+## collections模块
+- namedtuple
+- deque
+- defaultdict
+- counter:统计字符串中字符出现的字数           
+
+                           
                               
