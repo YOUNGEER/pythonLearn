@@ -13,4 +13,24 @@
     - urllib.parse：包含即url的方法
     - urllib.robotparse：解析robots.txt文件
     - 案例v1
+- 网页编码问题解决
+    - chardet：可以自动检测页面文件的编码格式
+    - 安装:conda install chardet
+- urlopen 的返回对象
+    - geturl：返回请求对象的url
+    - info：请求返回对象的meta信息
+    - getcode：返回的http code
+- request.data的使用
+    - 访问网络的两种方法
+    - get
+        - 利用参数给服务器传递信息
+        - 参数为dict，然后用parse编码
+    - post
+        - 一般向服务器传递参数使用
+        - post是把信息自动加密处理
+        - 需要用到data参数
+        - 请求头需要更改：
+            - Content-Type：application/x-www.form-urlencode        
+            - Content-Length:数据长度
+            - 简而言之，一旦更改请求方法，请注意其他请求头部信息相适应
         
